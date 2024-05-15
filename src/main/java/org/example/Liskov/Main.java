@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Liskov;
 
 import org.example.Liskov.Bicycle;
 import org.example.Liskov.Car;
