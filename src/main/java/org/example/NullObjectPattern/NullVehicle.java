@@ -1,4 +1,4 @@
-package org.example.BuilderDesignPattern.NullObjectPattern;
+package org.example.NullObjectPattern;
 
 public class NullVehicle implements Vehicle{
 
