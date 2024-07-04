@@ -5,27 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b63216d-4b69-420e-a96e-d8c5b65599ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChainOfResponsibilty/DebugProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChainOfResponsibilty/ErrorProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChainOfResponsibilty/InfoProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChainOfResponsibilty/LogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChainOfResponsibilty/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/TurnOffAC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CommandDesignPattern/TurnOnAC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemplateDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemplateDesignPattern/MerchantPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemplateDesignPattern/NormalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TemplateDesignPattern/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/MultiplyNonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/NumberTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InterpreterDesignPattern/SumNonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MediatorDesignPattern/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MediatorDesignPattern/AuctionMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MediatorDesignPattern/Bidder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MediatorDesignPattern/Colleauge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MementoDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MementoDesignPattern/ConfigurationCaretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MementoDesignPattern/ConfigurationMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MementoDesignPattern/ConfigurationOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/ItemShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/VendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuilderDesignPattern/NullObjectPattern/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NullObjectPattern/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuilderDesignPattern/NullObjectPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NullObjectPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuilderDesignPattern/NullObjectPattern/NullVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NullObjectPattern/NullVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuilderDesignPattern/NullObjectPattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NullObjectPattern/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuilderDesignPattern/NullObjectPattern/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NullObjectPattern/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FactoryPattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FactoryPattern/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,7 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +77,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/ayushrajkeshri/Desktop/Folder/SystemDesign&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.ChainOfResponsibilty.Main">
+  <component name="RunManager" selected="Application.org.example.MementoDesignPattern.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BuilderDesignPattern.Client" />
       <module name="SystemDesign" />
@@ -83,7 +91,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.BuilderDesignPattern.NullObjectPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SystemDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.BuilderDesignPattern.NullObjectPattern.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BuilderDesignPattern.NullObjectPattern.Main" />
       <module name="SystemDesign" />
       <extension name="coverage">
@@ -102,6 +123,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.ChainOfResponsibilty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.MementoDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MementoDesignPattern.Client" />
+      <module name="SystemDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.MementoDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.ChainOfResponsibilty.Main" />
-        <item itemvalue="Application.org.example.TemplateDesignPattern.Main" />
-        <item itemvalue="Application.org.example.BuilderDesignPattern.NullObjectPattern.Main" />
-        <item itemvalue="Application.org.example.PrototypePattern.Main" />
+        <item itemvalue="Application.org.example.MementoDesignPattern.Client" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.example.TemplateDesignPattern.Main" />
+        <item itemvalue="Application.org.example.ChainOfResponsibilty.Main" />
+        <item itemvalue="Application.org.example.PrototypePattern.Main" />
       </list>
     </recent_temporary>
   </component>
