@@ -27,5 +27,4 @@ UML :
  - Adapter Interface k impl class  k paas Adaptee Interface ka object hai jaha se wo weight in pound ka data aagya 
  - Uske baad hmare Adapter class ne usko convert krke return kr diya answer 
  - Client ko hm Adapter class k getWeightInKgs() ka access denge jaha se usko desired result mil jaayega 
- - Adapter Interface as a medium of conversion kaam kr rha hai yaha 
- - 
+ - Adapter Interface as a medium of conversion kaam kr rha hai yaha.
