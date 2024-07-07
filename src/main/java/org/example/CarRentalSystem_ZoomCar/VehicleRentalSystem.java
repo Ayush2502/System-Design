@@ -27,4 +27,10 @@ public class VehicleRentalSystem {
     public void setStoreList(List<Store> storeList) {
         this.storeList = storeList;
     }
+    public Store getStore(Location location){
+
+        //based on location, we will filter out the Store from storeList.
+        return storeList.get(0);
+    }
+
 }
