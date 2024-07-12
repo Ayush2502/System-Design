@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
-
     private State vendingMachineState;
     private Inventory inventory;
     private List<Coins> coinList;

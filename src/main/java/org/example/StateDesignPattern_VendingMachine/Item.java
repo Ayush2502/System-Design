@@ -1,15 +1,12 @@
 package org.example.StateDesignPattern_VendingMachine;
 
 public class Item {
-    ItemType type;
     int price;
+    ItemType itemType;
 
-    public ItemType getType() {
-        return type;
-    }
-
-    public void setType(ItemType type) {
-        this.type = type;
+    public Item(int price, ItemType itemType) {
+        this.price = price;
+        this.itemType = itemType;
     }
 
     public int getPrice() {
@@ -18,5 +15,13 @@ public class Item {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public ItemType getItemType() {
+        return itemType;
+    }
+
+    public void setItemType(ItemType itemType) {
+        this.itemType = itemType;
     }
 }

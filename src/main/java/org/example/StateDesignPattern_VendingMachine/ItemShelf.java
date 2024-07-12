@@ -3,7 +3,16 @@ package org.example.StateDesignPattern_VendingMachine;
 public class ItemShelf {
     int code;
     Item item;
-    boolean soldOut;
+    boolean available;
+
+    public ItemShelf(int code, Item item, boolean available) {
+        this.code = code;
+        this.item = item;
+        this.available = available;
+    }
+
+    public ItemShelf() {
+    }
 
     public int getCode() {
         return code;
@@ -21,11 +30,14 @@ public class ItemShelf {
         this.item = item;
     }
 
-    public boolean isSoldOut() {
-        return soldOut;
+    public boolean isAvailable(boolean b) {
+        return available;
     }
 
-    public void setSoldOut(boolean soldOut) {
-        this.soldOut = soldOut;
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+    public boolean isAvailable(){
+        return available;
     }
 }

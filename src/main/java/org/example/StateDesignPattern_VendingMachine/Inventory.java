@@ -1,39 +1,67 @@
 package org.example.StateDesignPattern_VendingMachine;
 
+import java.util.List;
+
 public class Inventory {
-    ItemShelf itemShelf[] = null;
+    ItemShelf[] inventory = null;
+    Inventory(int itemCount) {
+        inventory = new ItemShelf[itemCount];
+        initialEmptyInventory();
+    }
 
-    Inventory(int itemCount){
-        itemShelf = new ItemShelf[itemCount];
+    public ItemShelf[] getInventory() {
+        return inventory;
+    }
 
+    public void setInventory(ItemShelf[] inventory) {
+        this.inventory = inventory;
     }
-    public ItemShelf[] getInventory(){
-        return itemShelf;
-    }
-    public void setInventory(ItemShelf[] itemShelf){
-        this.itemShelf = itemShelf;
-    }
-    public void initialEmptyInventory(){
+    public void initialEmptyInventory() {
         int startCode = 101;
-        for(int i=0;i<itemShelf.length;i++){
-            ItemShelf temp = new ItemShelf();
-            temp.setCode(startCode++);
-            temp.setSoldOut(true);
-            itemShelf[i] = temp;
+        for (int i = 0; i < inventory.length; i++) {
+            ItemShelf space = new ItemShelf();
+            space.setCode(startCode);
+            space.isAvailable(true);
+            inventory[i] = space;
+            startCode++;
         }
     }
-    public void addItem(Item item,int codeNumber) throws Exception{
-        for(ItemShelf itemShelf1:itemShelf){
-            if(itemShelf1.code == codeNumber){
-                if(itemShelf1.isSoldOut()){
-                    itemShelf1.item = item;
-                    itemShelf1.setSoldOut(false);
+        public void addItem(Item item,int itemId) throws Exception{
+            for (ItemShelf itemShelf : inventory) {
+                if (itemShelf.code == itemId) {
+                    if (itemShelf.isAvailable()) {
+                        itemShelf.item = item;
+                        itemShelf.setAvailable(false);
+                    } else {
+                        throw new Exception("already item is present, you can not add item here");
+                    }
                 }
-                else{
-                    throw new Exception("already item is present , you cannot add here");
+            }
+
+        }
+    public Item getItem(int codeNumber) throws Exception {
+
+        for (ItemShelf itemShelf : inventory) {
+            if (itemShelf.code == codeNumber) {
+                if (itemShelf.isAvailable()) {
+                    throw new Exception("item already sold out");
+                } else {
+
+                    return itemShelf.item;
                 }
             }
         }
+        throw new Exception("Invalid Code");
     }
+        public void updateSoldOutItem(int codeNumber){
+            for (ItemShelf itemShelf : inventory) {
+                if (itemShelf.code == codeNumber) {
+                    itemShelf.setAvailable(true);
+                }
+            }
+        }
 
-}
+
+
+
+    }

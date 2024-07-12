@@ -8,47 +8,45 @@ import org.example.StateDesignPattern_VendingMachine.VendingMachine;
 import java.util.List;
 
 public class HasMoneyState implements State {
-    public HasMoneyState(){}
 
-    public HasMoneyState(VendingMachine vendingMachine){
+    @Override
+    public void clickOnInsertCoinButton(VendingMachine vendingMachine) throws Exception {
+        return;
     }
 
     @Override
-    public void ClickOnInsertCoinButton(VendingMachine vendingMachine) throws Exception {
-
-    }
-    @Override
-    public void ClickOnStartProductSelectionButton(VendingMachine vendingMachine) throws Exception{
-
+    public void insertCoins(VendingMachine vendingMachine, Coins coins) throws Exception {
+        System.out.println("Coins Excepted");
+        vendingMachine.getCoinList().add(coins);
     }
 
     @Override
-    public void InsertCoin(VendingMachine vendingMachine) throws Exception {
-        throw new Exception("You cannot insert coin in Idle state");
+    public void clickOnProductSelectionButton(VendingMachine vendingMachine) throws Exception {
+        vendingMachine.setVendingMachineState(new SelectionState());
     }
 
     @Override
-    public void ChooseProduct(VendingMachine vendingMachine, int productCode) throws Exception {
-        throw new Exception("You cannot choose Products");
+    public void selectProducts(VendingMachine vendingMachine, int itemNumber) throws Exception {
     }
 
     @Override
-    public int GetChange(int returnChangeMoney) throws Exception {
-        throw new Exception("Invalid Action");
+    public void getChange(int getChangedAmount) throws Exception {
+
     }
 
     @Override
-    public Item DispenseProduct(VendingMachine vendingMachine, int productCode) throws Exception {
-        throw new Exception("Invalid Action");
+    public List<Coins> getFullRefund(VendingMachine vendingMachine) throws Exception {
+        return null;
     }
 
     @Override
-    public List<Coins> RefundFullMoney(VendingMachine vendingMachine) throws Exception {
-        throw new Exception("Invalid Action");
+    public Item DispenseProduct(VendingMachine vendingMachine, int itemNumber) throws Exception {
+        return null;
     }
 
     @Override
-    public void UpdateInventory(VendingMachine vendingMachine, Item item, int productCode) throws Exception {
-        throw new Exception("Invalid Action");
+    public void updateInventory(VendingMachine vendingMachine, Item item, int itemNumber) throws Exception {
+
     }
+
 }

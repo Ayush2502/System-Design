@@ -5,14 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b63216d-4b69-420e-a96e-d8c5b65599ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/CoffeeInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/CoffeeVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/Coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/StateImpl/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/StateImpl/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/StateImpl/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CoffeeVendingMachine/StateImpl/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/BalanceSheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Split/EqualExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Split/ExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Split/PercentExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Split/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/Split/UnequalExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/SplitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Expense/SplitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Groups/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Groups/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/Splitwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/User/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Splitwise/UserExpenseBalanceSheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/VehicleInventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/VehicleInventoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/VehicleRentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarRentalSystem_ZoomCar/VehicleRentalSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/DispenseState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/DispenseState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/HasMoneyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/HasMoneyState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/SelectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Impl/SelectionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/ItemShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/ItemShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StateDesignPattern_VendingMachine/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +86,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/ayushrajkeshri/Desktop/Folder/SystemDesign&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.AdapterDesignPattern.Client">
+  <component name="RunManager" selected="Application.org.example.Splitwise.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BuilderDesignPattern.Client" />
       <module name="SystemDesign" />
@@ -110,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.ChainOfResponsibilty.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ChainOfResponsibilty.Main" />
+    <configuration name="org.example.MementoDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MementoDesignPattern.Client" />
       <module name="SystemDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ChainOfResponsibilty.*" />
+          <option name="PATTERN" value="org.example.MementoDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.MementoDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MementoDesignPattern.Client" />
+    <configuration name="org.example.Splitwise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Splitwise.Main" />
       <module name="SystemDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MementoDesignPattern.*" />
+          <option name="PATTERN" value="org.example.Splitwise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Splitwise.Main" />
         <item itemvalue="Application.org.example.AdapterDesignPattern.Client" />
         <item itemvalue="Application.org.example.MementoDesignPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.org.example.TemplateDesignPattern.Main" />
-        <item itemvalue="Application.org.example.ChainOfResponsibilty.Main" />
       </list>
     </recent_temporary>
   </component>

@@ -8,48 +8,67 @@ import org.example.StateDesignPattern_VendingMachine.VendingMachine;
 import java.util.List;
 
 public class SelectionState implements State {
-
-    public SelectionState(){}
-
-    public SelectionState(VendingMachine vendingMachine){
+    @Override
+    public void clickOnInsertCoinButton(VendingMachine vendingMachine) throws Exception {
+        return;
     }
 
     @Override
-    public void ClickOnInsertCoinButton(VendingMachine vendingMachine) throws Exception {
-
-    }
-    @Override
-    public void ClickOnStartProductSelectionButton(VendingMachine vendingMachine) throws Exception{
-
+    public void insertCoins(VendingMachine vendingMachine, Coins coins) throws Exception {
+        return;
     }
 
     @Override
-    public void InsertCoin(VendingMachine vendingMachine) throws Exception {
-        throw new Exception("You cannot insert coin in Idle state");
+    public void clickOnProductSelectionButton(VendingMachine vendingMachine) throws Exception {
+        return;
     }
 
     @Override
-    public void ChooseProduct(VendingMachine vendingMachine, int productCode) throws Exception {
-        throw new Exception("You cannot choose Products");
+    public void selectProducts(VendingMachine vendingMachine, int itemNumber) throws Exception {
+    Item item = vendingMachine.getInventory().getItem(itemNumber);
+
+        int paidByUser = 0;
+        for(Coins coin : vendingMachine.getCoinList()){
+            paidByUser = paidByUser + coin.value;
+        }
+
+        //3. compare product price and amount paid by user
+        if(paidByUser < item.getPrice()) {
+            System.out.println("Insufficient Amount, Product you selected is for price: " + item.getPrice() + " and you paid: " + paidByUser);
+            getFullRefund(vendingMachine);
+            throw new Exception("insufficient amount");
+        }
+        else if(paidByUser >= item.getPrice()) {
+
+            if(paidByUser > item.getPrice()) {
+                getChange(paidByUser-item.getPrice());
+            }
+            vendingMachine.setVendingMachineState(new DispenseState(vendingMachine, itemNumber));
+        }
+
     }
 
     @Override
-    public int GetChange(int returnChangeMoney) throws Exception {
-        throw new Exception("Invalid Action");
+    public void getChange(int getChangedAmount) throws Exception {
+        System.out.println("Refunding Extra Amount:"+getChangedAmount);
+        return;
     }
 
     @Override
-    public Item DispenseProduct(VendingMachine vendingMachine, int productCode) throws Exception {
-        throw new Exception("Invalid Action");
+    public List<Coins> getFullRefund(VendingMachine vendingMachine) throws Exception {
+        System.out.println("Insufficient Amount");
+        vendingMachine.setVendingMachineState(new IdleState(vendingMachine));
+        return vendingMachine.getCoinList();
     }
 
     @Override
-    public List<Coins> RefundFullMoney(VendingMachine vendingMachine) throws Exception {
-        throw new Exception("Invalid Action");
+    public Item DispenseProduct(VendingMachine vendingMachine, int itemNumber) throws Exception {
+        return null;
     }
 
     @Override
-    public void UpdateInventory(VendingMachine vendingMachine, Item item, int productCode) throws Exception {
-        throw new Exception("Invalid Action");
+    public void updateInventory(VendingMachine vendingMachine, Item item, int itemNumber) throws Exception {
+
     }
+
 }
