@@ -19,7 +19,6 @@ public class TwoThousandWithDrawProcessor extends CashWithDrawalProcessor{
             atm.deductTwoThousandNotes(atm.getNoOfTwoThousandNotes());
             balance = balance + (required-atm.getNoOfTwoThousandNotes()) * 2000;
         }
-
         if(balance != 0){
             super.withdraw(atm, balance);
         }
